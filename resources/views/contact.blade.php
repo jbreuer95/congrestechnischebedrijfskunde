@@ -21,7 +21,17 @@
                     <p><a href="mailto:info@congrestechnischebedrijfskunde.nl">info@congrestechnischebedrijfskunde.nl</a></p>
                 </div>
             </div>
-            @include('partials.sessies')
+            <div class="col-md-4">
+                <div class="block-header">
+                    <h2>
+                        <span class="title">Sessies</span><span class="decoration"></span><span
+                                class="decoration"></span><span class="decoration"></span>
+                    </h2>
+                </div>
+                <div class="tab-content">
+                    @include('partials.sessies')
+                </div>
+            </div>
         </div>
     </div>
 @endsection

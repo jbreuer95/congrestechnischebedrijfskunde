@@ -43,7 +43,7 @@
                 <div class="info-board info-board-blue">
                     <h4>Let op!</h4>
 
-                    <p>Inschrijven voor de break out sessies is mogelijk tot 13-01-2016.</p>
+                    <p><a href="/inschrijven">Inschrijven</a> voor de break out sessies is mogelijk tot 13-01-2016.</p>
                 </div>
             </div>
 

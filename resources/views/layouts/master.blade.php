@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p>Powered by Ingenium Cabo Bianci </p>
+                <p>Powered by <a href="http://www.ingeniumcabobianci.nl" target="_blank">Ingenium Cabo Bianci</a></p>
             </div>
         </div>
     </div>

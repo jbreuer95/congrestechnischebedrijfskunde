@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Foto's | Congres Technische Bedrijfskunde
+    Bedankt | Congres Technische Bedrijfskunde
     @endsection
 
     @section('content')
@@ -14,10 +14,10 @@
             <div class="col-md-8">
                 <div class="block-header">
                     <h2>
-                        <span class="title">Foto's</span><span class="decoration"></span><span
+                        <span class="title">Inschrijving gelukt</span><span class="decoration"></span><span
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
-                    <p>Na afloop van het congres zijn foto’s en andere media via op deze pagina.</p>
+                    <p>Bedankt voor uw inschrijving, wij kijken er naar uit u 20 januari te verwelkomen.</p>
                 </div>
             </div>
             <div class="col-md-4">

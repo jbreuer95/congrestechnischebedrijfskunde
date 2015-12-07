@@ -11,7 +11,13 @@
 |
 */
 
+use App\Sessie;
+use Illuminate\Http\Request;
+
 Route::get('/', function () {
+/*    $sessie = Sessie::create(['title' => 'test','body' => 'testbody']);
+    $inschrijvingen = Inschrijving::create(['naam' => 'test','mail' => 'test','hogeschool' => 'test','vakgebied' => 'test',]);
+    $inschrijvingen->sessies()->attach($sessie->id);*/
     return view('index');
 });
 
@@ -32,5 +38,12 @@ Route::get('/contact', function () {
 });
 
 Route::get('/inschrijven', function () {
-    return view('inschrijven');
+    $sessies = Sessie::lists('title','id');
+    return view('inschrijven',compact('sessies'));
+});
+
+Route::post('/inschrijven', 'PagesController@inschrijven');
+
+Route::get('/inschrijven/verstuurd', function () {
+    return view('bedankt');
 });
