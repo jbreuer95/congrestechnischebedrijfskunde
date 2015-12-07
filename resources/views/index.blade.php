@@ -19,7 +19,7 @@
             <div class="col-md-8">
                 <div class="block-header">
                     <h2>
-                        <span class="title">Congres Technische Bedrijfskunde</span><span class="decoration"></span><span
+                        <span class="title">Trends en ontwikkelingen binnen technische bedrijfskunde</span><span class="decoration"></span><span
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
                 </div>
@@ -47,7 +47,19 @@
                 </div>
             </div>
 
-            @include('partials.sessies')
+            <div class="col-md-4">
+                <div class="block-header">
+                    <h2>
+                        <span class="title">Tijd en locatie</span><span class="decoration"></span><span
+                                class="decoration"></span><span class="decoration"></span>
+                    </h2>
+                </div>
+                <div class="tab-content">
+                    <p>20-01-2016</p>
+                    <p>Aanvang: 10:00</p>
+                    <p>Koningsbergerstraat 9, te Utrecht</p>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

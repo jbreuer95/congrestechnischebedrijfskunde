@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p>Copyright &copy; Jelle Breuer 2015 - {{Carbon\Carbon::now()->year}} </p>
+                <p>Powered by Ingenium Cabo Bianci </p>
             </div>
         </div>
     </div>

@@ -18,7 +18,7 @@
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
 
-                    <p>Bij de inschrijving kan iedere deelnemer een keuze maken voor een break out&nbsp;sessie die hij
+                    <p>Bij de <a href="/inschrijven">inschrijving</a> kan iedere deelnemer een keuze maken voor een break out&nbsp;sessie die hij
                         of zij volgt in de eerste ronde en een andere break out sessie voor in de tweede ronde.
                         Inschrijven voor de break out sessies kan tot 13-01-2016.</p>
 
