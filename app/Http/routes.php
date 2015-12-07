@@ -38,8 +38,17 @@ Route::get('/contact', function () {
 });
 
 Route::get('/inschrijven', function () {
-    $sessies = Sessie::lists('title','id');
-    return view('inschrijven',compact('sessies'));
+    $all1 = Sessie::where('sessie',1)->get();
+    $filtered1 = $all1->filter(function ($item) {
+        return $item->max_inschrijvingen > count($item->inschrijvingen);
+    });
+    $sessies1 = $filtered1->lists('title','id');
+    $all2 = Sessie::where('sessie',2)->get();
+    $filtered2 = $all2->filter(function ($item) {
+        return $item->max_inschrijvingen > count($item->inschrijvingen);
+    });
+    $sessies2 = $filtered2->lists('title','id');
+    return view('inschrijven',compact('sessies1','sessies2'));
 });
 
 Route::post('/inschrijven', 'PagesController@inschrijven');

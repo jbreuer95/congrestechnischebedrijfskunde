@@ -9,7 +9,7 @@
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapse{{$sessie->id}}" aria-expanded="false"
                                    aria-controls="collapse{{$sessie->id}}">
-                                    {{$sessie->title}} {{count($sessie->inschrijvingen)}}/{{$sessie->max_inschrijvingen}}
+                                    {{$sessie->title}}
                                 </a>
                             </h4>
                         </div>

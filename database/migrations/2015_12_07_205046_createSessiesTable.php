@@ -16,7 +16,8 @@ class CreateSessiesTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->text('body');
-            $table->integer('max_inschrijvingen')->default('20');;
+            $table->integer('max_inschrijvingen')->default('20');
+            $table->integer('sessie');
             $table->timestamps();
         });
     }

@@ -20,12 +20,12 @@
                     {!! Form::open() !!}
                     <div class="form-group required @if($errors->has('commission')) has-error @endif">
                         {!! Form::label('sessie1','Eerste Sessie',['class' => 'control-label']) !!}
-                        {!! Form::select('sessie1', $sessies, null, ['class' => 'form-control', 'value' => Input::old('sessie1')]) !!}
+                        {!! Form::select('sessie1', $sessies1, null, ['class' => 'form-control', 'value' => Input::old('sessie1')]) !!}
                         @if ($errors->has('commission')) <p class="help-block">{{ $errors->first('commission') }}</p> @endif
                     </div>
                     <div class="form-group required @if($errors->has('dispuut')) has-error @endif">
                         {!! Form::label('sessie2','Tweede Sessie',['class' => 'control-label']) !!}
-                        {!! Form::select('sessie2', $sessies, null, ['class' => 'form-control', 'value' => Input::old('sessie2')]) !!}
+                        {!! Form::select('sessie2', $sessies2, null, ['class' => 'form-control', 'value' => Input::old('sessie2')]) !!}
                         @if ($errors->has('dispuut')) <p class="help-block">{{ $errors->first('dispuut') }}</p> @endif
                     </div>
                     <div class="form-group required @if($errors->has('name')) has-error @endif">

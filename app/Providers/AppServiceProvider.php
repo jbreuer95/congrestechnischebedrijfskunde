@@ -15,7 +15,11 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         view()->composer('partials.sessies', function($view){
-            $view->with('sessies', Sessie::all());
+            $all = Sessie::all();
+            $filtered = $all->filter(function ($item) {
+                return $item->max_inschrijvingen > count($item->inschrijvingen);
+            });
+            $view->with('sessies', $filtered->unique('title'));
         });
     }
 
