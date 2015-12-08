@@ -11,6 +11,7 @@
 |
 */
 
+use App\Inschrijving;
 use App\Sessie;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -21,6 +22,10 @@ Route::get('/', function () {
     $inschrijvingen->sessies()->attach($sessie->id);*/
     return view('index');
 });
+
+
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 Route::get('/programma', function () {
     return view('programma');
@@ -58,12 +63,11 @@ Route::get('/inschrijven/verstuurd', function () {
     return view('bedankt');
 });
 
-Route::get('/download', function () {
-    Excel::create('Inschrijvingen'. Carbon::now(), function($excel) {
-
-        // Set the title
-        $excel->setTitle('Our new awesome title');
-
-
-    })->download('xlsx');
-});
+Route::get('/download',['middleware' => 'auth.basic', function () {
+    $inschrijvingen = Inschrijving::all();
+    Excel::create('Inschrijvingen'. Carbon::now(), function($excel) use($inschrijvingen){
+        $excel->sheet('Sheet 1', function($sheet) use($inschrijvingen) {
+            $sheet->fromArray($inschrijvingen);
+        });
+    })->download('xls');
+}]);

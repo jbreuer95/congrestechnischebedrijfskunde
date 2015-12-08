@@ -58,15 +58,15 @@ return array(
     ),
 
     'properties' => array(
-        'creator'        => 'Maatwebsite',
-        'lastModifiedBy' => 'Maatwebsite',
+        'creator'        => 'CongresTechnischeBedrijfskunde',
+        'lastModifiedBy' => 'CongresTechnischeBedrijfskunde',
         'title'          => 'Spreadsheet',
         'description'    => 'Default spreadsheet export',
         'subject'        => 'Spreadsheet export',
-        'keywords'       => 'maatwebsite, excel, export',
+        'keywords'       => 'CongresTechnischeBedrijfskunde, excel, export',
         'category'       => 'Excel',
-        'manager'        => 'Maatwebsite',
-        'company'        => 'Maatwebsite',
+        'manager'        => 'CongresTechnischeBedrijfskunde',
+        'company'        => 'CongresTechnischeBedrijfskunde',
     ),
 
     /*
@@ -106,7 +106,7 @@ return array(
     |
     */
 
-    'creator'    => 'Maatwebsite',
+    'creator'    => 'CongresTechnischeBedrijfskunde',
 
     'csv'        => array(
         /*
