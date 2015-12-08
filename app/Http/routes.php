@@ -12,6 +12,7 @@
 */
 
 use App\Sessie;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
@@ -55,4 +56,14 @@ Route::post('/inschrijven', 'PagesController@inschrijven');
 
 Route::get('/inschrijven/verstuurd', function () {
     return view('bedankt');
+});
+
+Route::get('/download', function () {
+    Excel::create('Inschrijvingen'. Carbon::now(), function($excel) {
+
+        // Set the title
+        $excel->setTitle('Our new awesome title');
+
+
+    })->download('xlsx');
 });

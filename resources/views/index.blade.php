@@ -32,7 +32,7 @@
                 <p>De sprekers zijn onder andere:<br>
                     –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;drs. Willem van Raaijen, Partner Hobéon<br>
                     –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;drs. Tijs Pijls CINOP Advies en Adviseur NLQF en ECVET<br>
-                    –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael van Straalen, VNO-NCW en Voorzitter MKB-Nederland<br>
+                    –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michaël van Straalen, Voorzitter MKB-Nederland<br>
                     –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drs. Bert Schroën, faculteitsdirecteur&nbsp;Bèta Sciences
                     Hogeschool&nbsp;Zuyd</p>
 

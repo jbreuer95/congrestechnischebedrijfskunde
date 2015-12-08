@@ -64,7 +64,7 @@
                     <p><strong>13.15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Eerste break out sessie (45 minuten) , met onderwerpen:</strong></p>
                     <ol>
-                        <li style="margin-left: 65px">Hoe groot moet de T van Techniek zijn?</li>
+                        <li style="margin-left: 65px">TTT, De Toekomstige T van TBK</li>
                         <li style="margin-left: 65px">Is commercie hetzelfde als marketing?</li>
                         <li style="margin-left: 65px">Change Management de opvolger van Organisatiekunde?</li>
                         <li style="margin-left: 65px">De BOKS BE – de weg naar succes?</li>
