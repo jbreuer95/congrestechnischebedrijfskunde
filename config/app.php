@@ -148,7 +148,6 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Illuminate\Html\HtmlServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
-        BackupManager\Laravel\Laravel5ServiceProvider::class,
 
     ],
 
