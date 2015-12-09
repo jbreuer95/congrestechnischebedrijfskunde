@@ -18,15 +18,15 @@
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
                     {!! Form::open() !!}
-                    <div class="form-group required @if($errors->has('commission')) has-error @endif">
+                    <div class="form-group required @if($errors->has('sessie1')) has-error @endif">
                         {!! Form::label('sessie1','Eerste Sessie',['class' => 'control-label']) !!}
                         {!! Form::select('sessie1', $sessies1, null, ['class' => 'form-control', 'value' => Input::old('sessie1')]) !!}
-                        @if ($errors->has('commission')) <p class="help-block">{{ $errors->first('commission') }}</p> @endif
+                        @if ($errors->has('sessie1')) <p class="help-block">{{ $errors->first('sessie1') }}</p> @endif
                     </div>
-                    <div class="form-group required @if($errors->has('dispuut')) has-error @endif">
+                    <div class="form-group required @if($errors->has('sessie2')) has-error @endif">
                         {!! Form::label('sessie2','Tweede Sessie',['class' => 'control-label']) !!}
                         {!! Form::select('sessie2', $sessies2, null, ['class' => 'form-control', 'value' => Input::old('sessie2')]) !!}
-                        @if ($errors->has('dispuut')) <p class="help-block">{{ $errors->first('dispuut') }}</p> @endif
+                        @if ($errors->has('sessie2')) <p class="help-block">{{ $errors->first('sessie2') }}</p> @endif
                     </div>
                     <div class="form-group required @if($errors->has('name')) has-error @endif">
                         {!! Form::label('name','Naam',['class' => 'control-label']) !!}
