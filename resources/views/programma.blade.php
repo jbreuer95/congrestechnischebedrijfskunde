@@ -39,7 +39,7 @@
                             drs. Tijs Pijls CINOP Advies en Adviseur NLQF en ECVET
                         </li>
                         <li style="margin-left: 65px">Matching Engineers of the future: de match tussen afgestudeerde
-                            Technisch Bedrijfskundigen en wensen van het bedrijfsleven, Michael van Straalen, VNO-NCW en
+                            Technisch Bedrijfskundigen en wensen van het bedrijfsleven, Michael van Straalen,
                             Voorzitter MKB-Nederland
                         </li>
                         <li style="margin-left: 65px">De Engineer van de toekomst, drs. Bert Schroën,

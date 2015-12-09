@@ -14,7 +14,6 @@
 use App\Inschrijving;
 use App\Sessie;
 use Carbon\Carbon;
-use Illuminate\Http\Request;
 
 Route::get('/', function () {
 /*    $sessie = Sessie::create(['title' => 'test','body' => 'testbody']);
@@ -48,12 +47,12 @@ Route::get('/inschrijven', function () {
     $filtered1 = $all1->filter(function ($item) {
         return $item->max_inschrijvingen > count($item->inschrijvingen);
     });
-    $sessies1 = $filtered1->lists('title','id');
+    $sessies1 = [''=>''] + $filtered1->lists('title','id')->all();;
     $all2 = Sessie::where('sessie',2)->get();
     $filtered2 = $all2->filter(function ($item) {
         return $item->max_inschrijvingen > count($item->inschrijvingen);
     });
-    $sessies2 = $filtered2->lists('title','id');
+    $sessies2 = [''=>''] + $filtered2->lists('title','id')->all();;
     return view('inschrijven',compact('sessies1','sessies2'));
 });
 
