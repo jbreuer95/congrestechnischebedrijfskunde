@@ -39,7 +39,7 @@
                             drs. Tijs Pijls CINOP Advies en Adviseur NLQF en ECVET
                         </li>
                         <li style="margin-left: 65px">Matching Engineers of the future: de match tussen afgestudeerde
-                            Technisch Bedrijfskundigen en wensen van het bedrijfsleven, Michael van Straalen,
+                            Technisch Bedrijfskundigen en wensen van het bedrijfsleven, Micha&euml;l van Straalen,
                             Voorzitter MKB-Nederland
                         </li>
                         <li style="margin-left: 65px">De Engineer van de toekomst, drs. Bert Schroën,
@@ -65,7 +65,7 @@
                             Eerste break out sessie (45 minuten) , met onderwerpen:</strong></p>
                     <ol>
                         <li style="margin-left: 65px">TTT, De Toekomstige T van TBK</li>
-                        <li style="margin-left: 65px">Is commercie hetzelfde als marketing?</li>
+                        <li style="margin-left: 65px">Wat betekent Marketing voor Technische Bedrijfskunde (TBK)?</li>
                         <li style="margin-left: 65px">Change Management de opvolger van Organisatiekunde?</li>
                         <li style="margin-left: 65px">De BOKS BE – de weg naar succes?</li>
                         <li style="margin-left: 65px">Social Skills in 2025</li>
