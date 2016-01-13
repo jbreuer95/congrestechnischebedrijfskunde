@@ -36,7 +36,7 @@
                             van Raaijen, Partner Hobéon
                         </li>
                         <li style="margin-left: 65px">Roadmap 2015: Leven lang leren en Learning Outcomes in het HBO,
-                            drs. Tijs Pijls CINOP Advies en Adviseur NLQF en ECVET
+                            drs. Tijs Pijls CINOP Advies en Adviseur en Tineke Sessink
                         </li>
                         <li style="margin-left: 65px">Matching Engineers of the future: de match tussen afgestudeerde
                             Technisch Bedrijfskundigen en wensen van het bedrijfsleven, Micha&euml;l van Straalen,
