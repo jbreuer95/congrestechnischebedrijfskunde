@@ -17,41 +17,7 @@
                         <span class="title">Inschrijven</span><span class="decoration"></span><span
                                 class="decoration"></span><span class="decoration"></span>
                     </h2>
-                    {!! Form::open() !!}
-                    <div class="form-group required @if($errors->has('sessie1')) has-error @endif">
-                        {!! Form::label('sessie1','Eerste Sessie',['class' => 'control-label']) !!}
-                        {!! Form::select('sessie1', $sessies1, null, ['class' => 'form-control', 'value' => Input::old('sessie1')]) !!}
-                        @if ($errors->has('sessie1')) <p class="help-block">{{ $errors->first('sessie1') }}</p> @endif
-                    </div>
-                    <div class="form-group required @if($errors->has('sessie2')) has-error @endif">
-                        {!! Form::label('sessie2','Tweede Sessie',['class' => 'control-label']) !!}
-                        {!! Form::select('sessie2', $sessies2, null, ['class' => 'form-control', 'value' => Input::old('sessie2')]) !!}
-                        @if ($errors->has('sessie2')) <p class="help-block">{{ $errors->first('sessie2') }}</p> @endif
-                    </div>
-                    <div class="form-group required @if($errors->has('name')) has-error @endif">
-                        {!! Form::label('name','Naam',['class' => 'control-label']) !!}
-                        {!! Form::text('name', null, ['class' => 'form-control', 'value' => Input::old('name'),'placeholder' => 'Naam']) !!}
-                        @if ($errors->has('name')) <p class="help-block">{{ $errors->first('name') }}</p> @endif
-                    </div>
-                    <div class="form-group required @if($errors->has('email')) has-error @endif">
-                        {!! Form::label('email','Mail',['class' => 'control-label']) !!}
-                        {!! Form::email('email', null, ['class' => 'form-control', 'value' => Input::old('email'),'placeholder' => 'Mail']) !!}
-                        @if ($errors->has('email')) <p class="help-block">{{ $errors->first('email') }}</p> @endif
-                    </div>
-                    <div class="form-group required @if($errors->has('hogeschool')) has-error @endif">
-                        {!! Form::label('hogeschool','Hogeschool',['class' => 'control-label']) !!}
-                        {!! Form::text('hogeschool', null, ['class' => 'form-control', 'value' => Input::old('hogeschool'),'placeholder' => 'Hogeschool']) !!}
-                        @if ($errors->has('hogeschool')) <p class="help-block">{{ $errors->first('hogeschool') }}</p> @endif
-                    </div>
-                    <div class="form-group required @if($errors->has('vakgebied')) has-error @endif">
-                        {!! Form::label('vakgebied','Vakgebied',['class' => 'control-label']) !!}
-                        {!! Form::text('vakgebied', null, ['class' => 'form-control', 'value' => Input::old('vakgebied'),'placeholder' => 'Vakgebied']) !!}
-                        @if ($errors->has('vakgebied')) <p class="help-block">{{ $errors->first('vakgebied') }}</p> @endif
-                    </div>
-                    <div class="form-group">
-                        {!! Form::submit('Schrijf je in', ['class' => 'btn btn-green']) !!}
-                    </div>
-                    {!! Form::close() !!}
+                    <p>De inschrijfperiode is helaas afgelopen</p>
                 </div>
             </div>
             <div class="col-md-4">
